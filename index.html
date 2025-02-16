@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <script src="dice-roller.js"></script>
+</head>
+<body onload="rollDice()" class="main-content">
+    <div class="inner-content">
+        <div class="title">
+            <p class="heading">Web Dice Roller</p>
+        </div>
+        <div class="button">
+            <button autofocus onclick="rollDice()" class="roll-button">Roll!</button>
+        </div>
+        <div class="result">
+            Result Here:
+        </div>
+        <div class="result">
+            
+            <input class="textfield" id = "dice1" type="value" readonly>
+            <input class="textfield" id = "dice2" type="value" readonly>
+            <input class="textfield" id = "dice3" type="value" readonly>
+            <input class="textfield" id = "dice4" type="value" readonly>
+            <input class="textfield" id = "dice5" type="value" readonly>
+            
+        </div>
+    </div>
+</body>
+</html>
