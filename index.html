@@ -12,7 +12,10 @@
 <body onload="rollDice()" class="main-content">
     <div class="inner-content">
         <div class="title">
-            <p class="heading">Web Dice Roller</p>
+            <p class="heading">Dice Roller for the Web</p>
+            <div style="display:flex; justify-content:center;">
+                <p class="text">Welcome to Dice Roller! Please click "roll" to begin rolling the dice!</p>
+            </div>
         </div>
         <div class="button">
             <button autofocus onclick="rollDice()" class="roll-button">Roll!</button>
@@ -21,12 +24,11 @@
             Result Here:
         </div>
         <div class="result">
-            
-            <input class="textfield" id = "dice1" type="value" readonly>
-            <input class="textfield" id = "dice2" type="value" readonly>
-            <input class="textfield" id = "dice3" type="value" readonly>
-            <input class="textfield" id = "dice4" type="value" readonly>
-            <input class="textfield" id = "dice5" type="value" readonly>
+            <input class="textfield" id = "dice1" type="value" readonly disabled>
+            <input class="textfield" id = "dice2" type="value" readonly disabled>
+            <input class="textfield" id = "dice3" type="value" readonly disabled>
+            <input class="textfield" id = "dice4" type="value" readonly disabled>
+            <input class="textfield" id = "dice5" type="value" readonly disabled>
             
         </div>
     </div>
