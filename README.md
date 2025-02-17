@@ -1,4 +1,4 @@
-# Azure Static Website Template
+# Web Dice Roller
 This repository can be used to create a simple Azure hosted static website.
 Author : Roman Lewis
 Class: Software Engineering
